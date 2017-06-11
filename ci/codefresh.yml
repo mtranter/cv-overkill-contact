@@ -7,7 +7,6 @@ steps:
     commands:
       - npm install
       - jspm install
-      - gulp test
       - gulp bundle
   deploy:
     image: hashicorp/terraform
